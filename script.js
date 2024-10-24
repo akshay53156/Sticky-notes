@@ -15,6 +15,7 @@ function createNote(){
     let notesContainer = document.createElement("div");
     notesContainer.classList.add("notesContainer");
     let p = document.createElement("p");
+    p.classList.add("para");
     let btn = document.createElement("button");
     btn.classList.add("crossBtn");
 
